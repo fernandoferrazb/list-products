@@ -17,5 +17,5 @@ app.get('/*/', function (req, res) {
 	});
 });
 
-appServer = app.listen(process.env.PORT || 3000);
+appServer = app.listen(process.env.PORT || 8000);
 console.log("Express server started");
