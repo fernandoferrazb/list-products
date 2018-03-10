@@ -1,15 +1,22 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimal-ui">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="dist/css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<title>List products</title>
 </head>
 <body>
+	<h1 class="product-title">List products</h1>
+	<div class="products-wrapper">
+		<div class="products-wrapper__item">
+			 {#products}
+			 {@contentDump/}
+			 	<span>{server.title}</span>
+			 {/products}
+		</div>
+	</div>
 
-	Teste
-	
 </body>
 </html>
+

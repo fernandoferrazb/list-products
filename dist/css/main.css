@@ -1,2 +1,6 @@
-body {
-  background: red; }
+.product-title {
+  color: blue; }
+
+.products-wrapper {
+  background: red;
+  width: 100%; }
